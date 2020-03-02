@@ -18,3 +18,4 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('allItems', 'ItemController@index')->name('allItems');
+Route::post('storeOrder', 'OrderController@storeOrder')->name('storeOrder');
